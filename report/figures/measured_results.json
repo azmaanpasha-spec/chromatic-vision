@@ -1,0 +1,140 @@
+{
+  "images": [
+    {
+      "image": "shapes_scene.png",
+      "color": "Red",
+      "objects": 3,
+      "coverage": 4.81,
+      "ms": 29.4
+    },
+    {
+      "image": "shapes_scene.png",
+      "color": "Orange",
+      "objects": 2,
+      "coverage": 2.52,
+      "ms": 8.5
+    },
+    {
+      "image": "shapes_scene.png",
+      "color": "Yellow",
+      "objects": 2,
+      "coverage": 2.37,
+      "ms": 7.9
+    },
+    {
+      "image": "shapes_scene.png",
+      "color": "Green",
+      "objects": 3,
+      "coverage": 4.9,
+      "ms": 8.7
+    },
+    {
+      "image": "shapes_scene.png",
+      "color": "Blue",
+      "objects": 3,
+      "coverage": 3.83,
+      "ms": 7.3
+    },
+    {
+      "image": "shapes_scene.png",
+      "color": "Purple",
+      "objects": 2,
+      "coverage": 2.37,
+      "ms": 8.5
+    },
+    {
+      "image": "ball_collection.jpg",
+      "color": "Red",
+      "objects": 4,
+      "coverage": 7.63,
+      "ms": 5.1
+    },
+    {
+      "image": "ball_collection.jpg",
+      "color": "Blue",
+      "objects": 3,
+      "coverage": 5.93,
+      "ms": 5.0
+    },
+    {
+      "image": "ball_collection.jpg",
+      "color": "Green",
+      "objects": 2,
+      "coverage": 3.91,
+      "ms": 4.4
+    }
+  ],
+  "videos": [
+    {
+      "video": "moving_objects.mp4",
+      "color": "Red",
+      "frames": 200,
+      "with_detections": 200,
+      "frequency": 100.0,
+      "tracks": 2,
+      "avg_ms": 9.35,
+      "tracks_detail": [
+        {
+          "Track ID": 1,
+          "First frame": 0,
+          "Last frame": 199,
+          "Frames seen": 191,
+          "Path length (px)": 585.2
+        },
+        {
+          "Track ID": 2,
+          "First frame": 0,
+          "Last frame": 199,
+          "Frames seen": 200,
+          "Path length (px)": 578.0
+        }
+      ]
+    },
+    {
+      "video": "moving_objects.mp4",
+      "color": "Blue",
+      "frames": 200,
+      "with_detections": 200,
+      "frequency": 100.0,
+      "tracks": 1,
+      "avg_ms": 8.82,
+      "tracks_detail": [
+        {
+          "Track ID": 1,
+          "First frame": 0,
+          "Last frame": 199,
+          "Frames seen": 200,
+          "Path length (px)": 1052.4
+        }
+      ]
+    },
+    {
+      "video": "moving_objects.mp4",
+      "color": "Purple",
+      "frames": 200,
+      "with_detections": 0,
+      "frequency": 0.0,
+      "tracks": 0,
+      "avg_ms": 8.1,
+      "tracks_detail": []
+    },
+    {
+      "video": "orbiting_ball.avi",
+      "color": "Orange",
+      "frames": 120,
+      "with_detections": 120,
+      "frequency": 100.0,
+      "tracks": 1,
+      "avg_ms": 10.67,
+      "tracks_detail": [
+        {
+          "Track ID": 1,
+          "First frame": 0,
+          "Last frame": 119,
+          "Frames seen": 120,
+          "Path length (px)": 787.0
+        }
+      ]
+    }
+  ]
+}

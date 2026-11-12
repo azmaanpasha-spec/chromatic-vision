@@ -1,0 +1,24 @@
+PASS  Overview renders  
+PASS  Navigate to Image Analysis  
+PASS  Navigate to Video Tracking  
+PASS  Navigate to Analytics & Insights  
+PASS  Navigate to About Project  
+PASS  Navigate to Overview  
+PASS  Sample image demo detects 3 red objects  
+PASS  Download processed image  shapes_scene_red_detected.png
+PASS  Blue detection on sample (expect 3)  
+PASS  Green detection on ball_collection (expect 2)  
+PASS  No matching colour shows info message  
+PASS  Invalid image upload shows error  
+PASS  Uploaded JPG: red detection (expect 4)  
+PASS  Video demo processed 200 frames  
+PASS  Video demo: 2 unique track IDs  
+PASS  Download processed video (WebM)  moving_objects_red_tracked.webm
+PASS  Download processed video (MP4)  moving_objects_red_tracked.mp4
+PASS  Analytics shows image metrics  
+PASS  Analytics shows video metrics  
+PASS  Dashboard statistics updated  (5 image runs, 1 video run expected)
+PASS  AVI upload shows video info (120 frames, 30 fps)  
+PASS  No JavaScript page errors  
+22/22 checks passed
+PASS  Mobile: no horizontal overflow  
